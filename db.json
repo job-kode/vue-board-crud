@@ -1,0 +1,14 @@
+{
+  "board": [
+    {
+      "id": 1,
+      "title": "제목1",
+      "body": "내용1"
+    },
+    {
+      "title": "제목2-updated2",
+      "body": "내용2-updated2",
+      "id": 2
+    }
+  ]
+}
