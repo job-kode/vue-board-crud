@@ -4,7 +4,7 @@
     <router-link :to="{name: 'BoardList'}">
       <button>목록</button>
     </router-link>
-    <router-link :to="{name: 'BoardUpdate', params: {id: post.id}}">
+    <router-link :to="{name: 'BoardUpdate', params: {id: post.id}}" exact>
       <button>수정</button>
     </router-link>
     <button @click="boardDelete">삭제</button>
@@ -27,6 +27,7 @@ export default {
   },
   created() {
     const id = this.$route.params.id
+    console.log(id)
     axios
       .get(`/board/${id}`)
       .then(res => {

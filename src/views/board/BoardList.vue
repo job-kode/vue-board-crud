@@ -24,7 +24,7 @@
         </td>
         <td>{{ post.created }}</td>
         <td>
-          <router-link :to="{name: 'BoardUpdate', params:{id:post.id}}">
+          <router-link :to="{name: 'BoardUpdate', params: {id: post.id}}">
             <button>수정</button>
           </router-link>
           <button @click="boardDelete(post.id)">삭제</button>

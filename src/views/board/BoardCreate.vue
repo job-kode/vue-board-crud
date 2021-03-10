@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>게시판 글쓰기</h1>
+    <h1>게시판 폼</h1>
     <form @submit.prevent="handleSubmit">
       <div>
         <label for="writer">작성자</label>
