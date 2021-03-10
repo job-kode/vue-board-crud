@@ -2,13 +2,24 @@
   "board": [
     {
       "id": 1,
-      "title": "제목1",
-      "body": "내용1"
+      "writer": "홍길일",
+      "title": "첫번째 제목입니다.2",
+      "content": "첫번째 내용입니다",
+      "created": "2021.01.01"
     },
     {
-      "title": "제목2-updated2",
-      "body": "내용2-updated2",
-      "id": 2
+      "id": 2,
+      "writer": "홍길이",
+      "title": "두번째 제목입니다.",
+      "content": "두번째 내용입니다",
+      "created": "2021.01.02"
+    },
+    {
+      "id": 3,
+      "writer": "aaaabbbb",
+      "title": "fa123123123123",
+      "content": "aaaa3",
+      "created": "2222"
     }
   ]
 }
