@@ -1,24 +1,15 @@
-# 
+### Vue 게시판 CRUD 예제
 
-## Project setup
+###### backend : json-server 사용
+
+###### json-server 설치
+```npm install -g json-server```
+
+###### json-server 실행
+```json-server db.json --port 3000```
+
+###### 프로젝트 실행
 ```
 yarn install
-```
-
-### Compiles and hot-reloads for development
-```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
