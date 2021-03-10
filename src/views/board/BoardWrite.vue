@@ -10,7 +10,15 @@
         <label for="title">제목</label>
         <input v-model="title" type="text" id="title" />
       </div>
-      <button>완료</button>
+      <div>
+        <label for="content">내용</label>
+        <textarea v-model="content" type="text" id="content"></textarea>
+      </div>
+      <div>
+        <label for="created">날짜</label>
+        <input v-model="created" type="text" id="created" />
+      </div>
+      <button>글쓰기</button>
     </form>
   </div>
 </template>
@@ -30,6 +38,8 @@ export default {
       const data = {
         writer: this.writer,
         title: this.title,
+        content: this.content,
+        created: this.created,
       }
       axios
         .post('/board', data)
